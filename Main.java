@@ -1,4 +1,4 @@
-import Calculus.Calc_block;
+import Calculus.calc_block;
 import Logger.result_logger;
 import Transform;
 import Console;
@@ -10,7 +10,7 @@ public class Main {
 
     public static void button_click() {
         String j = data_transformation.data_formatting(Console.input_data());
-        Calc_block calc_result = new Calc_block(j);
+        Calc_block calc_result = new calc_block(j);
         Console.view_data(calc_result, "Ответ:");
         result_logger.write_log(j, calc_result);
     }
