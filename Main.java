@@ -11,7 +11,7 @@ public class Main {
     public static void button_click() {
         String j = data_transformation.data_formatting(Console.input_data());
         Calc_block calc_result = new calc_block(j);
-        Console.view_data(calc_result, "Ответ:");
+        Console.view_data(calc_result, "Ответ :");
         result_logger.write_log(j, calc_result);
     }
 }
