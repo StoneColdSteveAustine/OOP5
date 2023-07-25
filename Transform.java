@@ -3,7 +3,7 @@ import java.util.*;
 import java.lang.*;
 import java.math.*;
 import BiFunction.*;
-import Calculus.Calc_block as calc;
+import Calculus.calc_block as calc;
 import Transform as trans;
 
 public class Main {
