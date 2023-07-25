@@ -2,7 +2,7 @@ import Console as cons;
 import java.util.*;
 import java.lang.*;
 import java.math.*;
-import cmath.*;
+import BiFunction.*;
 import Calculus.Calc_block as calc;
 import Transform as trans;
 
